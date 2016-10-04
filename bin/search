@@ -1,0 +1,6 @@
+#!/bin/bash
+
+MAX_HEAP_SIZE=1g
+
+java -Xmx${MAX_HEAP_SIZE} -cp target/file-search-1.0-SNAPSHOT.jar com.schibsted.filesearch.Main $*
+
